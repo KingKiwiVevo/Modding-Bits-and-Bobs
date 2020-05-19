@@ -1,0 +1,32 @@
+# Before beginning, ensure you run Thief 1 or 2 first. Ensure settings like video options are set to their correct parameters, relevant to your setup. Under AUDIO, ensure that 'Hardware Acceleration' is set to 'OPENAL', by clicking the 'Hardware Acceleration option twice - it will cycle to YES, and then OPENAL. Ensure AUDIO CHANNELS is set to the max of 48 channels.
+
+# Recommended config changes for Thief 1 & 2
+
+# cam_ext.cfg - this file defines configurations relevant to the features added by NewDark. It is run _before_ cam.cfg. Comments preceded by a ; are notes left in the original file.
+
+; force game to run in windowed mode
+force_windowed (enable this option if you want borderless fullscreen)
+
+; enable software (ie. shader) based gamma and color processing (improves quality at the expense of performance,
+; and also enables in-game gamma to be applied in windowed mode)
+d3d_disp_sw_cc (enable this for gamma and colour corrections in windowed mode)
+
+; use high resolution timers (preferable but disabled by default for best compatibility, as it may not work
+; correctly on older OS versions, such as some XP systems where hi-res timer implementation uses RDTSC, which can
+; result in movement speeds going crazy and more)
+use_hi_res_timer
+
+; enable new mantling code
+new_mantle (ESSENTIAL)
+
+; scale bitmap based inventory icons/objects at higher screen resolutions (like body carry icon)
+scaled_inv_bitmaps
+
+; open last viewed map page if no automap location is found for current player location
+dark_map_remember_last
+
+; left align map notes
+dark_map_lalign_notes
+
+; head bob scale factor (a value between 0 and 1), useful if the head bobbing is causing motion sickness
+;bob_factor 0.3 (optional, but highly recommended to modify if necessary)
