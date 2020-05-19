@@ -2,8 +2,6 @@
 
 In attempt to create a more streamlined experience for future installs of Thief 2, as well as potentially for those who are after a more flexible install of Thief, I elected to explore the possibilities of creating a soft-modded file structure, whereby modifications are not made to the original files, instead simply 'injected' into the game.
 
-It should be noted *that I know absolutely nothing about any of the programming behind this*. This is coming from a place where I believe the Thief series deserves *better* than the work of just one person - Voodoo - who has been known to introduce questionable changes to his 'fix pack' on multiple occassions. This is not to mention that his, ahem, professional attitude to the development of his Thief patches is lacking.
-
 So, here are some observations on Thief 2 Fix, as it currently stands.
 
 ### T2Fix Installer - Required files
